@@ -1,7 +1,7 @@
 import sys
 
-def greet(greeted_name: str, shout_count: int = 1):
-    return f"Hello, {greeted_name}{shout_count * '!'}"
+def greet(new_greeted_name: str, shout_count: int = 1):
+    return f"Hello, {new_greeted_name}{shout_count * '!'}"
 
 
 if len(sys.argv) <= 2:
